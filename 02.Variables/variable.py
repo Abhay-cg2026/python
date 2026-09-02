@@ -28,5 +28,3 @@ student_name="Abhay"
 student_age=19
 student_age=20
 print(student_name,student_age)
-
-
