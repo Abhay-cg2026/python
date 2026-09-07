@@ -1,0 +1,24 @@
+is_indian=input("Are you indian ? yes or no : ")
+if is_indian=="yes":
+    age=int(input("Enter your age : "))
+    if age>=18:
+        print("You're allowed to vote")
+    if age<18:
+        print("badha hoja phle phir krna vote")
+if is_indian=="no":
+    marry=input("Do you want to marry indian girl or boy ? yes or no : ")
+    if marry=="yes":
+        select=input("you want to marry a boy or girl : ")
+        if select=="boy":
+            print("welcome to india")
+        if select=="girl":
+            print("go back simon")    
+    if marry=="no":
+        x=input("you are boy or girl : ")        
+        if x=="boy":
+            print("chle ja bsdk mat aa")
+        if x=="girl":
+            print("aaiye na hamre bihar me")    
+
+        
+
