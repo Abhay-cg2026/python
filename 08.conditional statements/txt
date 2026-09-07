@@ -20,5 +20,35 @@ if is_indian=="no":
         if x=="girl":
             print("aaiye na hamre bihar me")    
 
+
+
+
+
+
+print("for addtion press 1")
+print("for subtraction press 2")
+print("for multiplication press 3")
+print("for division press 4")
+operation=input("which operation you want to do : ")
+if operation==1 or operation==2 or operation==3 or operation==4:
+    N1=int(input("Enter a number : "))
+    N2=int(input("Enter a number : "))
+    if operation==1:
+        print("Enter two numbers ")
+        print(f"Addtiion of {N1} and {N2} is {N1 + N2}")
+    elif operation==2:
+        print("Enter two numbers ")
+        print(f"Subtraction of {N1} and {N2} is {N1 - N2}")
+    elif operation==3:
+        print("Enter two numbers ")
+        print(f"Multiplication of {N1} and {N2} is {N1*N2}")
+    elif operation==4:
+        print("Enter two numbers ")
+        print(f"Division of {N1} and {N2} is {N1/N2}")
+else:
+    print("Please write the following instruction correctly.")
+
+
+
         
 
