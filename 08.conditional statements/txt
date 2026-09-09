@@ -50,5 +50,26 @@ else:
 
 
 
+    
+
+
+is_student=input("are you student : (yes/no) : ").strip().lower()
+if is_student=="yes":
+    is_student=True
+has_id=input("do you have id : (yes/no) : ").strip().lower()
+if has_id=="yes":
+    has_id=True
+has_ticket=input("do you have ticket: (yes/no) : ").strip().lower()
+if has_ticket=="yes":
+    has_ticket=True
+elif is_student and has_id and has_ticket==True:
+    print("allowed")
+else:
+    print("not allowed")
+
+
+
+
+
         
 

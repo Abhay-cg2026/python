@@ -179,8 +179,59 @@ if age>=18 and has_id:
 else:
     print("not allowed")
 
-
 #task 24
+a=int(input("Enter a number : "))
+b=int(input("Enter a number : "))
+if a>10 and b>10:
+        print("both are greater than 10")
+else:
+    print("not greater than 10")
+
+#task 25
+a=int(input("Enter a number"))
+if a<0 or a>100:
+    print("number is either less than 0 or greater than 100")
+else:
+    print("number is not less than 0 or greater than 100")
+
+
+#task 26 
+
+
+#task 27
+a=int(input("Enter a number : "))
+if a>10 and a<50:
+    print("number is between 10 and 50")
+else:
+    print("not between 10 and 50")
+
+#task 28 
+a=int(input("Enter a number : "))
+if a<10 or a>50:
+    print("outside range")
+else:
+    print("inside range")
+
+#task 29
+is_student=input("are you student : (yes/no) : ").strip().lower()
+if is_student=="yes":
+    is_student=True
+else:
+    print("not allowed")
+has_id=input("are you student : (yes/no) : ").strip().lower()
+if has_id=="yes":
+    has_id=True
+else:
+    print("not allowed")
+has_ticket=input("are you student : (yes/no) : ").strip().lower()
+if has_ticket=="yes":
+    has_ticket=True
+else:
+    print("not allowed")
+
+
+
+
 
 
 
