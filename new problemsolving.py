@@ -236,6 +236,3 @@
 #     print("is prime")
 # else:
 #     print("not a prime number")
-
-
-
