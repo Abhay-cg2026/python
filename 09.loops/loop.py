@@ -167,8 +167,38 @@
 #task 30
 
 
+# a=input("Enter a str : ")
+# flag=False
+# for i in a:
+#     if i=="o" or i=="O":
+#         flag=True
+#         print("O found")
+#         break
+# if flag==False:
+#     print("not found")
 
+# a=input("Enter a str : ")
+# count=0
+# flag=True
+# for i in a:
+#     if i=="o" or i=="O":
+#         flag=False
+#         count+=1
+#         print("O found")
+#         break
+# print(count)
+# if flag==True:
+#     print("not found")
+# for i in range(3):
+#     for j in range(3):
+#         print(j)
 
+# for i in range(1,4):
+#     for j in range(1,4):
+#         if j==2:
+#             break
+
+#         print(i,j)
 
 
 

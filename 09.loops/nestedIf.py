@@ -259,13 +259,13 @@
 #     print()
 
 # task 17
-a=int(input("Enter Number : "))
-number=0
-for i in range(1,a+1):
-    for j in range(1,a+1):
-        number+=1
-        print(number,end=" ")
-    print()
+# a=int(input("Enter Number : "))
+# number=0
+# for i in range(1,a+1):
+#     for j in range(1,a+1):
+#         number+=1
+#         print(number,end=" ")
+#     print()
 
 # # task 18
 # number=0
@@ -291,3 +291,7 @@ for i in range(1,a+1):
 # task 22
 
 
+for i in range(1,5+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
