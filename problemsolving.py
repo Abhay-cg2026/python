@@ -424,3 +424,72 @@
 #         else:
 #             print(" ",end=" ")
 #     print()
+
+
+# str = input("Enter a string: ")
+# chr = input("Enter the character to count: ")
+# count = 0
+# for char in str:
+#     if char == chr:
+#         count += 1
+
+# print(f"The character '{chr}' appears {count} times.")
+
+
+# str=input("Enter a string : ")
+# for i in range(len(str)):
+#     c=0
+#     for j in range(len(str)):
+#         if str[i]==str[j]:
+#             c+=1
+#     repeat=False
+#     for k in range(i):
+#         if str[k]==str[i]:
+#             repeat=True
+#             break
+#     if repeat==False:
+#             print(str[i],"=",c)
+
+# a=input("Enter a number : ")
+# b=input("Enter a number you want to find : ")
+# if b in a:
+#     print("caught")
+# else:
+#     print("Escaped")
+
+# text = input("Enter any number : ")
+# target = input("Enter a num you want to find : ")
+# found = False
+
+# for i in range(len(text) - len(target) + 1):
+#     if text[i:i + len(target)] == target:
+#         found = True
+#         break
+
+# if found:
+#     print("Caught")
+# else:
+#     print("Escaped")
+
+# a="a1b2c3"
+# i=0
+# result=''
+# while i<len(a):
+#     char=a[i]
+#     count=int(a[i+1])
+#     result=result+(char*count)
+#     i+=2
+# print(result)
+
+def ispalindrome(str1,str2):
+    rev1=str1[::-1]
+    rev2=str2[::-1]
+    if str1==rev1 and str2==rev2:
+        print("palindrome")
+    else:
+        print("not palindrome")
+n=input("Enter a string : ")
+mid=len(n)//2
+str1=n[:mid]
+str2=n[mid:]
+print(ispalindrome(str1,str2))
